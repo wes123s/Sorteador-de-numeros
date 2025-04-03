@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do corpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+/* Estilo da imagem */
+img {
+    width: 450px;
+    height: 374px;
+    top: 156px;
+    left: 728px;
+
+}
+
+/* Container principal */
+div {
+    background-color: #000000;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 5px;
+    padding-bottom: 25px;
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Título */
+h1 {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    margin-bottom: 0px;
+}
+
+/* Inputs */
+input {
+    background: #f7f7f7;
+    width: calc(50% - 10px);
+    padding: 10px;
+    margin: 10px 5px;
+    margin-top: 0px;
+    border-radius: 4px;
+    font-size: 16px #ffffff;
+    display: inline block;
+    float: left;
+    font-size: 16px;
+
+
+}
+
+/* Botão */
+button {
+    width: 200px;
+    height: 50px;
+    top: 100px;
+    left: 100px;
+    border-radius: 3px;
+    background: #8c9b05;
+    color: #fdfdfd;
+    border: 5px #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+button:hover {
+    background-color: hsl(66, 53%, 55%);
+}
+
+
+/* Estilos para dispositivos móveis */
+@media (max-width: 650px) {
+    body {
+        padding: 10px;
+    }
+    img{width: 100%;
+    height: auto;
+}
+
+    div {
+        width: 100%; /* O contêiner ocupa toda a largura */
+        max-width: 300px; /* Limita a largura máxima */
+        padding: 15px; /* Aumenta o espaçamento interno */
+    }
+
+    h1 {
+        font-size: 16px; /* Ajusta o tamanho do título */
+    }
+
+    input {
+        width: 100%; /* Inputs ocupam toda a largura */
+        margin: 5px 0; /* Reduz o espaçamento entre os inputs */
+    }
+
+    button {
+        width: 100%; /* Botão ocupa toda a largura */
+        font-size: 16px; /* Ajusta o tamanho da fonte */
+    }
+}
